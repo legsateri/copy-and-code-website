@@ -1,0 +1,122 @@
+@media only screen and (min-width: 750px) {
+    .home_header {
+        background-color: #8C034E;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .home_header_flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mini_box {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 2px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_bottom {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 2px solid #718B03;
+        border-bottom: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_edge_right {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_bottom_edge_right {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 4px solid #718B03;
+        border-bottom: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_edge_left {
+        border-top: 4px solid #718B03;
+        border-left: 4px solid #718B03;
+        border-right: 2px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_bottom_edge_left {
+        border-top: 4px solid #718B03;
+        border-left: 4px solid #718B03;
+        border-right: 2px solid #718B03;
+        border-bottom: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .hide_mobile {
+        display: none;
+    }
+    .home_header {
+        background-color: #8C034E;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .home_header_flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mini_box {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 2px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_bottom {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 2px solid #718B03;
+        border-bottom: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_edge_mobile {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_bottom_edge_right {
+        border-top: 4px solid #718B03;
+        border-left: 2px solid #718B03;
+        border-right: 4px solid #718B03;
+        border-bottom: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_edge_left {
+        border-top: 4px solid #718B03;
+        border-left: 4px solid #718B03;
+        border-right: 2px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+    .mini_box_bottom_edge_left {
+        border-top: 4px solid #718B03;
+        border-left: 4px solid #718B03;
+        border-right: 2px solid #718B03;
+        border-bottom: 4px solid #718B03;
+        height: 100px;
+        width: 100px;
+    }
+}
