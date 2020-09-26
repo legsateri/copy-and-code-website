@@ -2,10 +2,18 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 //////////////////////////////////////////////////////////////////////////////
+import Homepage from '../../routes/Homepage/Homepage';
+//////////////////////////////////////////////////////////////////////////////
 
 function App() {
   return (
-    <></>
+    <>
+      <Route
+        exact
+        path={'/'}
+        component={Homepage}
+      />
+    </>
   );
 }
 
