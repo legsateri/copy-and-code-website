@@ -1,122 +1,139 @@
+.home_header {
+    background-color: #8C034E;
+}
+
 @media only screen and (min-width: 750px) {
-    .home_header {
-        background-color: #8C034E;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .home_header_flex {
-        display: flex;
+    .grid {
+        display: grid;
+        grid-template-areas: 'a b c c d e f g' 'h h c c d i j j' 'k k l m n o o o' 'k k p p q r s t';
+        padding: 20px;
+        grid-template-columns: minmax(85px, 150px) minmax(85px, 150px) minmax(85px, 150px) minmax(85px, 150px) minmax(85px, 150px) minmax(85px, 150px) minmax(85px, 150px) minmax(85px, 150px);
+        grid-template-rows: minmax(85px, 100px) minmax(85px, 100px) minmax(85px, 100px) minmax(85px, 100px);
         justify-content: center;
-        align-items: center;
     }
-    .mini_box {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 2px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_bottom {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 2px solid #718B03;
-        border-bottom: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_edge_right {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_bottom_edge_right {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 4px solid #718B03;
-        border-bottom: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_edge_left {
-        border-top: 4px solid #718B03;
+    .grid_item {
         border-left: 4px solid #718B03;
-        border-right: 2px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_bottom_edge_left {
         border-top: 4px solid #718B03;
-        border-left: 4px solid #718B03;
-        border-right: 2px solid #718B03;
+    }
+    .item_1 {
+        grid-area: a;
+    }
+    .item_2 {
+        grid-area: b;
+    }
+    .item_3 {
+        grid-area: c;
+    }
+    .item_4 {
+        grid-area: d;
+    }
+    .item_5 {
+        grid-area: e;
+    }
+    .item_6 {
+        grid-area: f;
+    }
+    .item_7 {
+        grid-area: g;
+        border-right: 4px solid #718B03;
+    }
+    .item_8 {
+        grid-area: h;
+    }
+    .item_9 {
+        grid-area: i;
+    }
+    .item_10 {
+        grid-area: j;
+        border-right: 4px solid #718B03;
+    }
+    .item_11 {
+        grid-area: k;
         border-bottom: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
+    }
+    .item_12 {
+        grid-area: l;
+    }
+    .item_13 {
+        grid-area: m;
+    }
+    .item_14 {
+        grid-area: n;
+    }
+    .item_15 {
+        grid-area: o;
+        border-right: 4px solid #718B03;
+    }
+    .item_16 {
+        grid-area: p;
+        border-bottom: 4px solid #718B03;
+    }
+    .item_17 {
+        grid-area: q;
+        border-bottom: 4px solid #718B03;
+    }
+    .item_18 {
+        grid-area: r;
+        border-bottom: 4px solid #718B03;
+    }
+    .item_19 {
+        grid-area: s;
+        border-bottom: 4px solid #718B03;
+    }
+    .item_20 {
+        grid-area: t;
+        border-right: 4px solid #718B03;
+        border-bottom: 4px solid #718B03;
     }
 }
 
 @media only screen and (max-width: 749px) {
-    .hide_mobile {
-        display: none;
+    .hide {
+        display: none
     }
-    .home_header {
-        background-color: #8C034E;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .home_header_flex {
-        display: flex;
+    .grid {
+        display: grid;
+        grid-template-areas: 'a b c c' 'h h c c' 'k k l m' 'k k p p';
+        padding: 20px;
+        grid-template-columns: minmax(50px, 75px) minmax(50px, 75px) minmax(50px, 75px) minmax(50px, 75px);
+        grid-template-rows: minmax(50px, 75px) minmax(50px, 75px) minmax(50px, 75px) minmax(50px, 75px);
         justify-content: center;
-        align-items: center;
     }
-    .mini_box {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 2px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_bottom {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 2px solid #718B03;
-        border-bottom: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_edge_mobile {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_bottom_edge_right {
-        border-top: 4px solid #718B03;
-        border-left: 2px solid #718B03;
-        border-right: 4px solid #718B03;
-        border-bottom: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_edge_left {
-        border-top: 4px solid #718B03;
+    .grid_item {
         border-left: 4px solid #718B03;
-        border-right: 2px solid #718B03;
-        height: 100px;
-        width: 100px;
-    }
-    .mini_box_bottom_edge_left {
         border-top: 4px solid #718B03;
-        border-left: 4px solid #718B03;
-        border-right: 2px solid #718B03;
+    }
+    .item_1 {
+        grid-area: a;
+    }
+    .item_2 {
+        grid-area: b;
+    }
+    .item_3 {
+        grid-area: c;
+        border-right: 4px solid #718B03;
+    }
+    .item_8 {
+        grid-area: h;
+    }
+    .item_11 {
+        grid-area: k;
         border-bottom: 4px solid #718B03;
-        height: 100px;
-        width: 100px;
+    }
+    .item_12 {
+        grid-area: l;
+    }
+    .item_13 {
+        grid-area: m;
+        border-right: 4px solid #718B03;
+    }
+    .item_15 {
+        grid-area: o;
+        border-right: 4px solid #718B03;
+    }
+    .item_16 {
+        grid-area: p;
+        border-bottom: 4px solid #718B03;
+        border-right: 4px solid #718B03;
     }
 }
