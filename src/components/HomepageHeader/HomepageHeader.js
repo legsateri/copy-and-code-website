@@ -11,49 +11,49 @@ class HomepageHeader extends Component {
         return (
             <>
                 <header className='home_header'>
-                    <div className='grid'>
+                    <div className='grid reset'>
                         <div className='item_1 grid_item'>
-                            <img src={Logo} alt='Copy & Code' className='logo' />
+                            <img src={Logo} alt='Copy & Code' className='logo hide_small' />
                         </div>
 
-                        <div className='item_2 grid_item'></div>
+                        <div className='item_2 grid_item hide_small'></div>
 
                         <div className='item_3 grid_item'>
                             <p className='home_header_copy'>We write for and build high-performance websites and apps for the small businesses that need them most.</p>
                         </div>
 
-                        <div className='item_4 grid_item hide'>
+                        <div className='item_4 grid_item hide hide_small'>
                             <div className='half_circle_vertical'></div>
                         </div>
 
-                        <div className='item_5 grid_item hide'></div>
+                        <div className='item_5 grid_item hide hide_small'></div>
 
-                        <div className='item_6 grid_item hide'>
+                        <div className='item_6 grid_item hide hide_small'>
                             <div className='mini_circle'></div>
                         </div>
 
-                        <div className='item_7 grid_item hide'>
+                        <div className='item_7 grid_item hide hide_small'>
                             <p className='home_header_copy angle'>Welcome</p>
                         </div>
 
-                        <div className='item_8 grid_item'>
+                        <div className='item_8 grid_item hide_small'>
                             <div className='half_circle_horizontal'></div>
                         </div>
 
-                        <div className='item_9 grid_item hide'></div>
-                        <div className='item_10 grid_item hide'></div>
+                        <div className='item_9 grid_item hide hide_small'></div>
+                        <div className='item_10 grid_item hide hide_small'></div>
 
-                        <div className='item_11 grid_item'>
+                        <div className='item_11 grid_item hide_small'>
                             <div className='big_circle'></div>
                         </div>
 
-                        <div className='item_12 grid_item'></div>
+                        <div className='item_12 grid_item hide_small'></div>
 
-                        <div className='item_13 grid_item'>
+                        <div className='item_13 grid_item hide_small'>
                             <div className='mini_circle'></div>
                         </div>
 
-                        <div className='item_14 grid_item hide'></div>
+                        <div className='item_14 grid_item hide hide_small'></div>
 
                         <div className='item_15 grid_item hide'>
                             <p className='home_header_copy'>Write what you want. Code what you need.</p>
