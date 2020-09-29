@@ -1,0 +1,75 @@
+.our_work_header {
+    margin-top: 100px;
+    font-family: fira-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #020f59;
+    text-align: center;
+    font-size: 25px;
+}
+
+.brand_circle {
+    background-color: #ddb3ca;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    align-self: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+.jkmc {
+    background-image: url(jkmc-legal.png);
+}
+
+.sd308 {
+    background-image: url(sd308.png);
+}
+
+.rsna {
+    background-image: url(rsna.png);
+}
+
+.project_description {
+    text-align: center;
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #020f59;
+    width: 175px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 750px) {
+    .our_work_header {
+        margin-bottom: 50px;
+    }
+    .brands {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .project_description {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 749px) {
+    .our_work_header {
+        margin-bottom: 40px;
+    }
+    .brand_circle {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .brands {
+        margin-bottom: 50px;
+    }
+    .project_description {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+}

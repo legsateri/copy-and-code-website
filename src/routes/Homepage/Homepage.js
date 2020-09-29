@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
 import HomepageHeader from '../../components/HomepageHeader/HomepageHeader';
+import OurWork from '../../components/OurWork/OurWork';
 //////////////////////////////////////////////////////////////////////////////
 import './Homepage.css';
 //////////////////////////////////////////////////////////////////////////////
@@ -11,6 +12,10 @@ class Homepage extends Component {
         return (
             <>
                 <HomepageHeader />
+
+                <main>
+                    <OurWork />
+                </main>
             </>
         )
     }
