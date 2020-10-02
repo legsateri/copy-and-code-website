@@ -1,0 +1,26 @@
+.footer {
+    height: 1000px;
+    background-color: #8C034E;
+}
+
+@media only screen and (min-width: 750px) {
+    .footer {
+        clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 749px) {
+    .footer {
+        height: 500px;
+        clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .footer {
+        height: 500px;
+        clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+/* TODO: Text angle for footer needs to inherit angle of section */

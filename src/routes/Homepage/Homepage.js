@@ -1,6 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
+import Footer from '../../components/Footer/Footer';
 import HomepageHeader from '../../components/HomepageHeader/HomepageHeader';
 import OurWork from '../../components/OurWork/OurWork';
 import WhatWeDo from '../../components/WhatWeDo/WhatWeDo';
@@ -18,6 +19,8 @@ class Homepage extends Component {
                     <OurWork />
                     <WhatWeDo />
                 </main>
+
+                <Footer />
             </>
         )
     }
