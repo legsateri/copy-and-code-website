@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
 import HomepageHeader from '../../components/HomepageHeader/HomepageHeader';
 import OurWork from '../../components/OurWork/OurWork';
+import WhatWeDo from '../../components/WhatWeDo/WhatWeDo';
 //////////////////////////////////////////////////////////////////////////////
 import './Homepage.css';
 //////////////////////////////////////////////////////////////////////////////
@@ -15,6 +16,7 @@ class Homepage extends Component {
 
                 <main>
                     <OurWork />
+                    <WhatWeDo />
                 </main>
             </>
         )

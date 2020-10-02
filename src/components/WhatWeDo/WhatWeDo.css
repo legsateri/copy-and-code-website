@@ -1,0 +1,108 @@
+.what_we_do_header {
+    margin-top: 50px;
+    font-family: fira-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #020f59;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.what_we_do_copy {
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #020f59;
+    line-height: 1.25;
+}
+
+.laptop, .books, .pens {
+    height: 45px;
+}
+
+@media only screen and (min-width: 750px) {
+    .icons_and_descriptions {
+        display: grid;
+        grid-template-areas: 'a b' 'c d' 'e f';
+        grid-template-columns: minmax(100px, 100px) minmax(500px, 500px);
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+    .grid_area_1 {
+        grid-area: a;
+    }
+    .grid_area_2 {
+        grid-area: b;
+    }
+    .grid_area_3 {
+        grid-area: c;
+    }
+    .grid_area_4 {
+        grid-area: d;
+    }
+    .grid_area_5 {
+        grid-area: e;
+    }
+    .grid_area_6 {
+        grid-area: f;
+    }
+    .grid_items {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+    .grid_area_1, .grid_area_3, .grid_area_5 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 749px) {
+    .what_we_do_header {
+        margin-top: 100px;
+        font-family: fira-sans, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #020f59;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .icons_and_descriptions {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .laptop, .books, .pens {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .what_we_do_header {
+        margin-top: 100px;
+        font-family: fira-sans, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #020f59;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .icons_and_descriptions {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .laptop, .books, .pens {
+        padding-top: 30px;
+    }
+}

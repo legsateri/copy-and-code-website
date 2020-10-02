@@ -9,7 +9,7 @@ class OurWork extends Component {
         return (
             <>
                 <section>
-                    <h1 className='our_work_header'>Our Work</h1>
+                    <h1 className='our_work_header'>OUR WORK</h1>
 
                     <div className='brands'>
                         <div>
