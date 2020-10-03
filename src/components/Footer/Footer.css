@@ -32,10 +32,33 @@
 }
 
 .link_style:hover {
-    color: #020f59;
+    color: #80961C;
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2481px) {
+    .footer_diagonal {
+        transform: skewY(0deg);
+        height: 300px;
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+    
+    .footer_container {
+        background-color: #8C034E;
+    }
+    
+    .footer {
+        position: relative;
+        height: 500px;
+        background-position: 50% 50%;
+        background-size: 400px;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2480px) {
     .footer_diagonal {
         height: 900px;
     }
