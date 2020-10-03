@@ -31,6 +31,10 @@
     color: #718B03;
 }
 
+.link_style:hover {
+    color: #020f59;
+}
+
 @media only screen and (min-width: 2000px) {
     .footer_diagonal {
         height: 900px;
