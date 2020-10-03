@@ -16,7 +16,6 @@
     align-self: center;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 150px;
 }
 
 .jkmc {
@@ -53,6 +52,11 @@
     .project_description {
         margin-bottom: 100px;
     }
+    .brand_circle {
+        width: 175px;
+        height: 175px;
+        background-size: 150px;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 749px) {
@@ -63,6 +67,9 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        width: 125px;
+        height: 125px;
+        background-size: 100px;
     }
     .brands {
         margin-bottom: 50px;
@@ -83,6 +90,9 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        width: 125px;
+        height: 125px;
+        background-size: 100px;
     }
     .brands {
         margin-bottom: 50px;
