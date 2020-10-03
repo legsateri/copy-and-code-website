@@ -57,6 +57,10 @@
         height: 175px;
         background-size: 150px;
     }
+    .brand_circle:hover {
+        width: 178px;
+        height: 178px;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 749px) {
@@ -80,6 +84,11 @@
         margin-bottom: 50px;
         width: 80%;
     }
+
+    .brand_circle:hover {
+        width: 128px;
+        height: 128px;
+    }
 }
 
 @media only screen and (max-width: 319px) {
@@ -102,5 +111,10 @@
         margin-right: auto;
         margin-bottom: 50px;
         width: 80%;
+    }
+
+    .brand_circle:hover {
+        width: 128px;
+        height: 128px;
     }
 }
