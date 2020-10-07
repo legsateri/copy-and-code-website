@@ -1,10 +1,10 @@
 //////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
-import './OurWork.css';
+import './OurWorkHome.css';
 //////////////////////////////////////////////////////////////////////////////
 
-class OurWork extends Component {
+class OurWorkHome extends Component {
     render() {
         return (
             <>
@@ -33,4 +33,4 @@ class OurWork extends Component {
     }
 }
 
-export default OurWork;
+export default OurWorkHome;
