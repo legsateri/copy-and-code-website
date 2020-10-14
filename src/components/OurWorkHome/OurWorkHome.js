@@ -24,7 +24,7 @@ class OurWorkHome extends Component {
                         </div>
 
                         <div>
-                            <a href='https://drive.google.com/drive/folders/1OwCW_2TOCqA6HR_B04o4Dv6kSk4Ji_yu?usp=sharing' className='brand_link' target='_blank' style={{ textDecoration: 'none' }}><div className='brand_circle rsna'></div></a>
+                        <Link to='/our-work/rsna' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle rsna'></div></Link>
                             <p className="project_description">Rebranded this medical association so it was more approachable.</p>
                         </div>
                     </div>
