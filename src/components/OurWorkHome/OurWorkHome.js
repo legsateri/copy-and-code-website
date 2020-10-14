@@ -14,7 +14,7 @@ class OurWorkHome extends Component {
 
                     <div className='brands'>
                         <div>
-                            <a href='https://jkmclegal.com/' className='brand_link' target='_blank' style={{ textDecoration: 'none' }}><div className='brand_circle jkmc'></div></a>
+                            <Link to='/our-work/jkmc' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle jkmc'></div></Link>
                             <p className="project_description">Rewrote and redesigned the website for a small, lady-owned lawfirm.</p>
                         </div>
 
@@ -24,7 +24,7 @@ class OurWorkHome extends Component {
                         </div>
 
                         <div>
-                        <Link to='/our-work/rsna' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle rsna'></div></Link>
+                            <Link to='/our-work/rsna' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle rsna'></div></Link>
                             <p className="project_description">Rebranded this medical association so it was more approachable.</p>
                         </div>
                     </div>

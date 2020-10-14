@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom';
 //////////////////////////////////////////////////////////////////////////////
 import HomeboundPage from '../../routes/HomeboundPage/HomeboundPage';
 import Homepage from '../../routes/Homepage/Homepage';
+import JKMcLegalPage from '../../routes/JKMcLegalPage/JKMcLegalPage';
 import RSNAPage from '../../routes/RSNAPage/RSNAPage';
 //////////////////////////////////////////////////////////////////////////////
 
@@ -18,6 +19,10 @@ function App() {
         exact
         path={'/'}
         component={Homepage}
+      />
+      <Route
+        path={'/our-work/jkmc'}
+        component={JKMcLegalPage}
       />
       <Route
         path={'/our-work/rsna'}
