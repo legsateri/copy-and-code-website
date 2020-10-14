@@ -1,12 +1,10 @@
 //////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
-import Footer from '../../components/Footer/Footer';
+import FooterHome from '../../components/FooterHome/FooterHome';
 import HomepageHeader from '../../components/HomepageHeader/HomepageHeader';
 import OurWorkHome from '../../components/OurWorkHome/OurWorkHome';
 import WhatWeDo from '../../components/WhatWeDo/WhatWeDo';
-//////////////////////////////////////////////////////////////////////////////
-import './Homepage.css';
 //////////////////////////////////////////////////////////////////////////////
 
 class Homepage extends Component {
@@ -20,7 +18,7 @@ class Homepage extends Component {
                     <WhatWeDo />
                 </main>
 
-                <Footer />
+                <FooterHome />
             </>
         )
     }
