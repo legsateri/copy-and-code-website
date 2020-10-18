@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom';
 import './OurWorkHome.css';
 //////////////////////////////////////////////////////////////////////////////
 
-// FIXME:
-
 class OurWorkHome extends Component {
     render() {
         return (
             <>
-                <div className='hexagon_flex'>
+                <div className='hexagon_flex our_work_desktop'>
                     <Link to='/our-work/jkmc' style={{ textDecoration: 'none' }}>
                         <div className='hexagon_jkmc hexagon_colors_jkmc hexagon_zero hexagon_triangle_up hexagon_triangle_up_large padding'></div>
                         <div className='rectangle_jkmc'></div>
@@ -28,6 +26,38 @@ class OurWorkHome extends Component {
                         <div className='hexagon_rsna hexagon_colors_rsna hexagon_zero hexagon_triangle_up hexagon_triangle_up_large'></div>
                         <div className='rectangle_rsna'></div>
                         <div className='hexagon_rsna hexagon_colors_rsna hexagon_zero hexagon_triangle_down hexagon_triangle_down_large'></div>
+                    </Link>
+                </div>
+
+                <div className='our_work_tablet'>
+                    <div className='hexagon_flex'>
+                        <Link to='/our-work/jkmc' style={{ textDecoration: 'none' }}>
+                            <div className='rectangle_jkmc padding'></div>
+                        </Link>
+
+                        <Link to='/our-work/homebound' style={{ textDecoration: 'none' }}>
+                            <div className='rectangle_homebound'></div>
+                        </Link>
+                    </div>
+
+                    <div className='hexagon_flex'>
+                        <Link to='/our-work/rsna' style={{ textDecoration: 'none' }}>
+                            <div className='rectangle_rsna'></div>
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='our_work_mobile'>
+                    <Link to='/our-work/jkmc' style={{ textDecoration: 'none' }}>
+                        <div className='rectangle_jkmc padding'></div>
+                    </Link>
+
+                    <Link to='/our-work/homebound' style={{ textDecoration: 'none' }}>
+                        <div className='rectangle_homebound padding'></div>
+                    </Link>
+
+                    <Link to='/our-work/rsna' style={{ textDecoration: 'none' }}>
+                        <div className='rectangle_rsna'></div>
                     </Link>
                 </div>
             </>
