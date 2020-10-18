@@ -11,26 +11,25 @@ class OurWorkHome extends Component {
     render() {
         return (
             <>
-                <section>
-                    <h1 className='our_work_header'>OUR WORK</h1>
+                <div className='hexagon_flex'>
+                    <Link to='/our-work/jkmc' style={{ textDecoration: 'none' }}>
+                        <div className='hexagon_jkmc hexagon_colors_jkmc hexagon_zero hexagon_triangle_up hexagon_triangle_up_large padding'></div>
+                        <div className='rectangle_jkmc'></div>
+                        <div className='hexagon_jkmc hexagon_colors_jkmc hexagon_zero hexagon_triangle_down hexagon_triangle_down_large'></div>
+                    </Link>
 
-                    <div className='brands'>
-                        <div>
-                            <Link to='/our-work/jkmc' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle jkmc'></div></Link>
-                            <p className="project_description">Rewrote and redesigned the website for a small, lady-owned lawfirm.</p>
-                        </div>
+                    <Link to='/our-work/homebound' style={{ textDecoration: 'none' }}>
+                        <div className='hexagon_homebound hexagon_colors_homebound hexagon_zero hexagon_triangle_up hexagon_triangle_up_large padding'></div>
+                        <div className='rectangle_homebound'></div>
+                        <div className='hexagon_homebound hexagon_colors_homebound hexagon_zero hexagon_triangle_down hexagon_triangle_down_large'></div>
+                    </Link>
 
-                        <div>
-                            <Link to='/our-work/homebound' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle sd308'></div></Link>
-                            <p className="project_description">Created a Homebound Learning manual for a local school district.</p>
-                        </div>
-
-                        <div>
-                            <Link to='/our-work/rsna' className='brand_link' style={{ textDecoration: 'none' }}><div className='brand_circle rsna'></div></Link>
-                            <p className="project_description">Rebranded this medical association so it was more approachable.</p>
-                        </div>
-                    </div>
-                </section>
+                    <Link to='/our-work/rsna' style={{ textDecoration: 'none' }}>
+                        <div className='hexagon_rsna hexagon_colors_rsna hexagon_zero hexagon_triangle_up hexagon_triangle_up_large'></div>
+                        <div className='rectangle_rsna'></div>
+                        <div className='hexagon_rsna hexagon_colors_rsna hexagon_zero hexagon_triangle_down hexagon_triangle_down_large'></div>
+                    </Link>
+                </div>
             </>
         )
     }

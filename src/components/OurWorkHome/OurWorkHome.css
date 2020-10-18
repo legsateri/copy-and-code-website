@@ -1,122 +1,106 @@
-/* FIXME: */
-
-.our_work_header {
-    margin-top: 100px;
-    font-family: fira-sans, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #020f59;
-    text-align: center;
-    font-size: 25px;
+.hexagon_flex {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.brand_circle {
-    background-color: #ddb3ca;
-    border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    align-self: center;
+.hexagon_jkmc {
+    width: 200px;
+    height: 200px;
+    border: 60px solid white;
+}
+
+.hexagon_colors_jkmc {
+    border-top-color: lighten(white, 5%);
+    border-right-color: lighten(white, 10%);
+    border-bottom-color: darken(white, 10%);
+    border-left-color: darken(white, 5%);
+}
+
+.hexagon_homebound {
+    width: 200px;
+    height: 200px;
+    border: 60px solid #D1D6E1;
+}
+
+.hexagon_colors_homebound {
+    border-top-color: lighten(#D1D6E1, 5%);
+    border-right-color: lighten(#D1D6E1, 10%);
+    border-bottom-color: darken(#D1D6E1, 10%);
+    border-left-color: darken(#D1D6E1, 5%);
+}
+
+.hexagon_rsna {
+    width: 200px;
+    height: 200px;
+    border: 60px solid #CCDEED;
+}
+
+.hexagon_colors_rsna {
+    border-top-color: lighten(#CCDEED, 5%);
+    border-right-color: lighten(#CCDEED, 10%);
+    border-bottom-color: darken(#CCDEED, 10%);
+    border-left-color: darken(#CCDEED, 5%);
+}
+
+.hexagon_zero {
+    width: 0;
+    height: 0;
+}
+
+.hexagon_triangle_up {
+    border-top-width: 0;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.hexagon_triangle_up_large {
+    border-left-width: 104px;
+    border-right-width: 104px;
+}
+
+.hexagon_triangle_down {
+    border-bottom-width: 0;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.hexagon_triangle_down_large {
+    border-left-width: 104px;
+    border-right-width: 104px;
+}
+
+.rectangle_jkmc {
+    width: 208px;
+    height: 100px;
+    background-color: white;
+    background-image: url(jkmc-legal.png);
+    background-size: 170px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
-.jkmc {
-    background-image: url(jkmc-legal.png);
-}
-
-.sd308 {
+.rectangle_homebound {
+    width: 208px;
+    height: 100px;
+    background-color: #D1D6E1;
     background-image: url(sd308.png);
+    background-size: 170px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
-.rsna {
+.rectangle_rsna {
+    width: 208px;
+    height: 100px;
+    background-color: #CCDEED;
     background-image: url(rsna.png);
+    background-size: 170px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
-.project_description {
-    text-align: center;
-    font-family: fira-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    color: #020f59;
-    width: 175px;
-    margin-top: 20px;
-}
-
-@media only screen and (min-width: 750px) {
-    .our_work_header {
-        margin-bottom: 50px;
-    }
-    .brands {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .project_description {
-        margin-bottom: 100px;
-    }
-    .brand_circle {
-        width: 175px;
-        height: 175px;
-        background-size: 150px;
-    }
-    .brand_circle:hover {
-        width: 178px;
-        height: 178px;
-    }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 749px) {
-    .our_work_header {
-        margin-bottom: 40px;
-    }
-    .brand_circle {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        width: 125px;
-        height: 125px;
-        background-size: 100px;
-    }
-    .brands {
-        margin-bottom: 50px;
-    }
-    .project_description {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        width: 80%;
-    }
-
-    .brand_circle:hover {
-        width: 128px;
-        height: 128px;
-    }
-}
-
-@media only screen and (max-width: 319px) {
-    .our_work_header {
-        margin-bottom: 40px;
-    }
-    .brand_circle {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        width: 125px;
-        height: 125px;
-        background-size: 100px;
-    }
-    .brands {
-        margin-bottom: 50px;
-    }
-    .project_description {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        width: 80%;
-    }
-
-    .brand_circle:hover {
-        width: 128px;
-        height: 128px;
-    }
+.padding {
+    margin-right: 20px;
 }
