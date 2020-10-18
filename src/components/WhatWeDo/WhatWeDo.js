@@ -8,6 +8,8 @@ import Pens from './pens.png';
 import './WhatWeDo.css';
 //////////////////////////////////////////////////////////////////////////////
 
+// FIXME:
+
 class WhatWeDo extends Component {
     render() {
         return (

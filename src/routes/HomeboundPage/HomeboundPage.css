@@ -13,53 +13,12 @@
     margin-right: 50px;
 }
 
-.project_header {
-    font-family: fira-sans, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #020f59;
-    font-size: 25px;
-}
-
-.services {
-    padding-top: 50px;
-    font-family: fira-sans, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #8C034E;
-    font-size: 18px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .project_conent {
     font-family: fira-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     color: #8087AC;
-}
-
-.download_button {
-    margin-top: 60px;
-    border: 0px;
-    padding: 0px;
-    height: 40px;
-    width: 150px;
-    font-family: fira-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    color: white;
-    background: #8087AC;
-}
-
-.download_button:hover {
-    background: #8C034E;
 }
 
 @media only screen and (max-width: 1149px) {
@@ -72,12 +31,6 @@ ul {
         height: 100%;
         margin-right: 0px;
     }
-    .download_button {
-        margin-bottom: 50px;
-    }
-    .will_it_work {
-        text-align: center;
-    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -86,8 +39,5 @@ ul {
         margin-right: 20px;
         margin-left: 20px;
         margin-bottom: 80px;
-    }
-    .download_button {
-        margin-top: 50px;
     }
 }

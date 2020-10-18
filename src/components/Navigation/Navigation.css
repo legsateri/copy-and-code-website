@@ -1,0 +1,25 @@
+.navigation {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.navigation_flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav_item {
+    border-bottom: 2px solid #020F59;
+    width: 100px;
+    color: #8087AC;
+}
+
+.nav_item:hover {
+    color: #8C034E;
+    border-bottom: 2px solid #8C034E;
+}
