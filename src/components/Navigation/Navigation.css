@@ -1,25 +1,76 @@
-.navigation {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 50px;
-}
-
-.navigation_flex {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.logo {
-    width: 100px;
-}
-
 .nav_item {
-    border-bottom: 2px solid #020F59;
-    width: 100px;
     color: #8087AC;
 }
 
 .nav_item:hover {
     color: #8C034E;
     border-bottom: 2px solid #8C034E;
+}
+
+.logo {
+    width: 100px;
+}
+
+@media only screen and (min-width: 901px) {
+    .navigation_desktop {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .navigation_flex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav_item {
+        border-bottom: 2px solid #020F59;
+        width: 100px;
+    }
+    .nav_item:hover {
+        color: #8C034E;
+        border-bottom: 2px solid #8C034E;
+    }
+    .navigation_tablet {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 900px) {
+    .navigation_desktop {
+        display: none;
+    }
+    .navigation_tablet {
+        margin-top: 50px;
+    }
+    .navigation_flex {
+        width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .navigation_desktop {
+        display: none;
+    }
+    .navigation_tablet {
+        margin-top: 50px;
+    }
+    .navigation_flex {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

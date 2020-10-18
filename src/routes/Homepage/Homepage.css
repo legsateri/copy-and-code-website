@@ -1,0 +1,14 @@
+.home_header {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.home_h1 {
+    font-size: 75px;
+}
+
+.home_p {
+    font-size: 22px;
+    font-weight: 200;
+}

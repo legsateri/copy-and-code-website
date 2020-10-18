@@ -11,16 +11,26 @@ class FooterHome extends Component {
     render() {
         return (
             <>
-                <nav className='navigation'>
+                <nav className='navigation_desktop'>
                     <div className='navigation_flex'>
-                        <p className='nav_item'>HOME</p>
+                        <Link to='/' style={{ textDecoration: 'none' }}><p className='nav_item'>HOME</p></Link>
                         <p className='nav_item'>WORK</p>
-                        <img src={Logo} alt='Copy & Code' className='logo hide_small' />
+                        <Link to='/' style={{ textDecoration: 'none' }}><img src={Logo} alt='Copy & Code' className='logo' /></Link>
                         <p className='nav_item'>ABOUT</p>
                         <p className='nav_item'>CONTACT</p>
                     </div>
                 </nav>
 
+                <nav className='navigation_tablet'>
+                    <Link to='/' style={{ textDecoration: 'none' }}><img src={Logo} alt='Copy & Code' className='logo' /></Link>
+
+                    <div className='navigation_flex'>
+                        <Link to='/' style={{ textDecoration: 'none' }}><p className='nav_item'>HOME</p></Link>
+                        <p className='nav_item'>WORK</p>
+                        <p className='nav_item'>ABOUT</p>
+                        <p className='nav_item'>CONTACT</p>
+                    </div>
+                </nav>
             </>
         )
     }
