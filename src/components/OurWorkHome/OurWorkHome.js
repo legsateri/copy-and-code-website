@@ -47,7 +47,7 @@ class OurWorkHome extends Component {
                     </div>
                 </div>
 
-                <div className='our_work_mobile'>
+                <div className='our_work_mobile hexagon_flex'>
                     <Link to='/our-work/jkmc' style={{ textDecoration: 'none' }}>
                         <div className='rectangle_jkmc padding'></div>
                     </Link>

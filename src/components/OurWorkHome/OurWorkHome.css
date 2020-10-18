@@ -21,7 +21,6 @@
 
 .padding {
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .hexagon_flex {
@@ -132,11 +131,19 @@
         height: 300px;
         background-size: 250px;
     }
+    .padding {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 639px) {
     .our_work_desktop, .our_work_tablet {
         display: none;
+    }
+    .hexagon_flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .rectangle_jkmc, .rectangle_homebound, .rectangle_rsna {
         width: 300px;
