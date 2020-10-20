@@ -2,9 +2,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 //////////////////////////////////////////////////////////////////////////////
+import Footer from '../../components/Footer/Footer';
+import Navigation from '../../components/Navigation/Navigation';
+//////////////////////////////////////////////////////////////////////////////
 import HomeboundPage from '../../routes/HomeboundPage/HomeboundPage';
 import Homepage from '../../routes/Homepage/Homepage';
-import Navigation from '../../components/Navigation/Navigation';
 import JKMcLegalPage from '../../routes/JKMcLegalPage/JKMcLegalPage';
 import RSNAPage from '../../routes/RSNAPage/RSNAPage';
 //////////////////////////////////////////////////////////////////////////////
@@ -42,6 +44,8 @@ function App() {
           />
         </Switch>
       </main>
+
+      <Footer />
     </>
   );
 }

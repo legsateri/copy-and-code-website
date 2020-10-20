@@ -5,12 +5,10 @@ import Books from './books.png';
 import Laptop from './laptop.png';
 import Pens from './pens.png';
 //////////////////////////////////////////////////////////////////////////////
-import './WhatWeDo.css';
+import './WhatWeDoHome.css';
 //////////////////////////////////////////////////////////////////////////////
 
-// FIXME:
-
-class WhatWeDo extends Component {
+class WhatWeDoHome extends Component {
     render() {
         return (
             <>
@@ -37,4 +35,4 @@ class WhatWeDo extends Component {
     }
 }
 
-export default WhatWeDo;
+export default WhatWeDoHome;

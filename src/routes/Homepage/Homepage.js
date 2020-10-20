@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
 import OurWorkHome from '../../components/OurWorkHome/OurWorkHome';
-import WhatWeDo from '../../components/WhatWeDo/WhatWeDo';
+import WhatWeDoHome from '../../components/WhatWeDoHome/WhatWeDoHome';
 //////////////////////////////////////////////////////////////////////////////
 import './Homepage.css';
 //////////////////////////////////////////////////////////////////////////////
@@ -19,7 +19,7 @@ class Homepage extends Component {
 
                 <div>
                     <OurWorkHome />
-                    <WhatWeDo />
+                    <WhatWeDoHome />
                 </div>
             </>
         )

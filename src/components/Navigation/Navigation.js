@@ -7,7 +7,7 @@ import Logo from './temp_logo.png'
 import './Navigation.css';
 //////////////////////////////////////////////////////////////////////////////
 
-class FooterHome extends Component {
+class Navigation extends Component {
     render() {
         return (
             <>
@@ -36,4 +36,4 @@ class FooterHome extends Component {
     }
 }
 
-export default FooterHome;
+export default Navigation;
