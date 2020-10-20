@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
 import OurWorkHome from '../../components/OurWorkHome/OurWorkHome';
+import WhatWeDo from '../../components/WhatWeDo/WhatWeDo';
 //////////////////////////////////////////////////////////////////////////////
 import './Homepage.css';
 //////////////////////////////////////////////////////////////////////////////
@@ -18,6 +19,7 @@ class Homepage extends Component {
 
                 <div>
                     <OurWorkHome />
+                    <WhatWeDo />
                 </div>
             </>
         )
