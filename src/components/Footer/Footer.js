@@ -13,7 +13,7 @@ class Footer extends Component {
                     <ul className='footer_flex'>
                         <li className='footer_item'>WORK</li>
                         <li className='footer_item'>ABOUT</li>
-                        <li className='footer_item'>CONTACT</li>
+                        <Link to='/contact' style={{ textDecoration: 'none' }}><li className='footer_item'>CONTACT</li></Link>
                     </ul>
 
                     <p className='footer_copywrite'>Copyright © 2020 <a href='https://copycodechicago.com/' target='_blank' className='footer_link'>Copy & Code</a>, LLC. All rights reserved.</p>

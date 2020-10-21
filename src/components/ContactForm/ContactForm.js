@@ -21,35 +21,28 @@ class ContactForm extends Component {
                 email: email,
                 message: message
             }
-        }).then((response) => {
-            if (response.data.msg === 'success') {
-                alert('Message Sent!');
-            } else if (response.data.msg === 'fail') {
-                alert(':( Message failed to send.')
-            }
         })
+            .then((response) => {
+                if (response.data.msg === 'success') {
+                    alert('Message Sent!')
+                } else if (response.data.msg === 'fail') {
+                    alert(':( Message failed to send.')
+                }
+            })
+            .then(() => {
+                window.location.reload(false);
+            });
     };
 
     render() {
         return (
             <>
                 <form onSubmit={this.handleSubmit.bind(this)} method='POST' className='contact_form'>
-                    <div>
-                        <label htmlFor='name'>Name</label>
-                        <input type='text' id='name' />
-                    </div>
+                    <input type='text' id='name' placeholder=' NAME' /> <br />
+                    <input type='email' id='email' placeholder=' EMAIL' /> <br />
+                    <textarea rows='10' id='message' /> <br />
 
-                    <div>
-                        <label htmlFor='email'>Email</label>
-                        <input type='email' id='email' />
-                    </div>
-
-                    <div>
-                        <label htmlFor='message'>Message</label>
-                        <textarea rows='5' id='message' />
-                    </div>
-
-                    <button type='submit'>SUBMIT</button>
+                    <button type='submit' className='submit_button'>SUBMIT</button>
                 </form>
             </>
         )

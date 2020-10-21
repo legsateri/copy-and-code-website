@@ -1,0 +1,31 @@
+.contact_form {
+    margin-top: 100px;
+}
+
+input, textarea {
+    width: 300px;
+    border: 1px solid #8087AC;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+}
+
+.submit_button {
+    margin-top: 20px;
+    border: 0px;
+    padding: 0px;
+    height: 40px;
+    width: 150px;
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    background: #8087AC;
+}
+
+.submit_button:hover {
+    background: #8C034E;
+}
