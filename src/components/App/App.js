@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 //////////////////////////////////////////////////////////////////////////////
+import ContactUsPage from '../../routes/ContactUsPage/ContactUsPage';
 import HomeboundPage from '../../routes/HomeboundPage/HomeboundPage';
 import Homepage from '../../routes/Homepage/Homepage';
 import JKMcLegalPage from '../../routes/JKMcLegalPage/JKMcLegalPage';
@@ -22,6 +23,11 @@ function App() {
 
       <main>
         <Switch>
+        <Route
+            path={'/contact'}
+            component={ContactUsPage}
+          />
+
           <Route
             path={'/our-work/homebound'}
             component={HomeboundPage}
