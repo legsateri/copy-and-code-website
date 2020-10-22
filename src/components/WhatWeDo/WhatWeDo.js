@@ -5,10 +5,10 @@ import Books from './books.png';
 import Laptop from './laptop.png';
 import Pens from './pens.png';
 //////////////////////////////////////////////////////////////////////////////
-import './WhatWeDoHome.css';
+import './WhatWeDo.css';
 //////////////////////////////////////////////////////////////////////////////
 
-class WhatWeDoHome extends Component {
+class WhatWeDo extends Component {
     render() {
         return (
             <>
@@ -35,4 +35,4 @@ class WhatWeDoHome extends Component {
     }
 }
 
-export default WhatWeDoHome;
+export default WhatWeDo;

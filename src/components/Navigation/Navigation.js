@@ -16,7 +16,7 @@ class Navigation extends Component {
                         <Link to='/' style={{ textDecoration: 'none' }}><p className='nav_item'>HOME</p></Link>
                         <Link to='/work' style={{ textDecoration: 'none' }}><p className='nav_item'>WORK</p></Link>
                         <Link to='/' style={{ textDecoration: 'none' }}><img src={Logo} alt='Copy & Code' className='logo' /></Link>
-                        <p className='nav_item'>ABOUT</p>
+                        <Link to='/about' style={{ textDecoration: 'none' }}><p className='nav_item'>ABOUT</p></Link>
                         <Link to='/contact' style={{ textDecoration: 'none' }}><p className='nav_item'>CONTACT</p></Link>
                     </div>
                 </nav>
@@ -27,7 +27,7 @@ class Navigation extends Component {
                     <div className='navigation_flex'>
                         <Link to='/' style={{ textDecoration: 'none' }}><p className='nav_item'>HOME</p></Link>
                         <Link to='/work' style={{ textDecoration: 'none' }}><p className='nav_item'>WORK</p></Link>
-                        <p className='nav_item'>ABOUT</p>
+                        <Link to='/about' style={{ textDecoration: 'none' }}><p className='nav_item'>ABOUT</p></Link>
                         <Link to='/contact' style={{ textDecoration: 'none' }}><p className='nav_item'>CONTACT</p></Link>
                     </div>
                 </nav>
