@@ -52,6 +52,7 @@ function App() {
           />
 
           <Route
+            exact
             path={'/work'}
             component={OurWorkPage}
           />
