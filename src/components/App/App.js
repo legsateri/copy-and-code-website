@@ -9,6 +9,7 @@ import ContactUsPage from '../../routes/ContactUsPage/ContactUsPage';
 import HomeboundPage from '../../routes/HomeboundPage/HomeboundPage';
 import Homepage from '../../routes/Homepage/Homepage';
 import JKMcLegalPage from '../../routes/JKMcLegalPage/JKMcLegalPage';
+import OurWorkPage from '../../routes/OurWorkPage/OurWorkPage';
 import RSNAPage from '../../routes/RSNAPage/RSNAPage';
 //////////////////////////////////////////////////////////////////////////////
 import './App.css';
@@ -23,13 +24,13 @@ function App() {
 
       <main>
         <Switch>
-        <Route
+          <Route
             path={'/contact'}
             component={ContactUsPage}
           />
 
           <Route
-            path={'/our-work/homebound'}
+            path={'/work/homebound'}
             component={HomeboundPage}
           />
 
@@ -40,12 +41,17 @@ function App() {
           />
 
           <Route
-            path={'/our-work/jkmc'}
+            path={'/work/jkmc'}
             component={JKMcLegalPage}
           />
 
           <Route
-            path={'/our-work/rsna'}
+            path={'/work'}
+            component={OurWorkPage}
+          />
+
+          <Route
+            path={'/work/rsna'}
             component={RSNAPage}
           />
         </Switch>

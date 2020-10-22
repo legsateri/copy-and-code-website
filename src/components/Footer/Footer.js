@@ -11,7 +11,7 @@ class Footer extends Component {
             <>
                 <footer>
                     <ul className='footer_flex'>
-                        <li className='footer_item'>WORK</li>
+                        <Link to='/work' style={{ textDecoration: 'none' }}><li className='footer_item'>WORK</li></Link>
                         <li className='footer_item'>ABOUT</li>
                         <Link to='/contact' style={{ textDecoration: 'none' }}><li className='footer_item'>CONTACT</li></Link>
                     </ul>
