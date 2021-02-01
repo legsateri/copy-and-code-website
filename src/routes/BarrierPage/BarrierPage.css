@@ -1,0 +1,33 @@
+.barrier_flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.barrier_sample {
+    width: 70%;
+    height: 70%;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 1149px) {
+    .barrier_flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .barrier_sample {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .barrier_flex {
+        margin-top: 80px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
