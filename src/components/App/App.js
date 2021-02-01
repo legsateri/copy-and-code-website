@@ -6,12 +6,14 @@ import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 //////////////////////////////////////////////////////////////////////////////
 import AboutPage from '../../routes/AboutPage/AboutPage';
+import BarrierPage from '../../routes/BarrierPage/BarrierPage';
 import ContactUsPage from '../../routes/ContactUsPage/ContactUsPage';
 import HomeboundPage from '../../routes/HomeboundPage/HomeboundPage';
 import Homepage from '../../routes/Homepage/Homepage';
 import JKMcLegalPage from '../../routes/JKMcLegalPage/JKMcLegalPage';
 import OurWorkPage from '../../routes/OurWorkPage/OurWorkPage';
 import RSNAPage from '../../routes/RSNAPage/RSNAPage';
+import VidaPage from '../../routes/VidaPage/VidaPage';
 //////////////////////////////////////////////////////////////////////////////
 import './App.css';
 //////////////////////////////////////////////////////////////////////////////
@@ -26,8 +28,13 @@ function App() {
       <main>
         <Switch>
           <Route
-            path={'/about'}
-            component={AboutPage}
+            path={'/work/barrier'}
+            component={BarrierPage}
+          />
+
+          <Route
+            path={'/contact'}
+            component={ContactUsPage}
           />
 
           <Route
@@ -60,6 +67,11 @@ function App() {
           <Route
             path={'/work/rsna'}
             component={RSNAPage}
+          />
+
+          <Route
+            path={'/work/vida'}
+            component={VidaPage}
           />
         </Switch>
       </main>

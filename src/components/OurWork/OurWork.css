@@ -1,3 +1,17 @@
+.rectangle_barrier {
+    background-color: #ADD7F7;
+    background-image: url(barrier.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.rectangle_vida {
+    background-color: #A0CAB0;
+    background-image: url(vida.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 .rectangle_jkmc {
     background-color: white;
     background-image: url(jkmc-legal.png);
@@ -5,16 +19,16 @@
     background-repeat: no-repeat;
 }
 
-.rectangle_homebound {
-    background-color: #D1D6E1;
-    background-image: url(sd308.png);
+.rectangle_rsna {
+    background-color: #CCDEED;
+    background-image: url(rsna.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
-.rectangle_rsna {
-    background-color: #CCDEED;
-    background-image: url(rsna.png);
+.rectangle_homebound {
+    background-color: #D1D6E1;
+    background-image: url(sd308.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -37,6 +51,28 @@
         margin-right: 20px;
         margin-left: 20px;
     }
+    .hexagon_barrier {
+        width: 200px;
+        height: 200px;
+        border: 60px solid #ADD7F7;
+    }
+    .hexagon_colors_barrier {
+        border-top-color: lighten(#ADD7F7, 5%);
+        border-right-color: lighten(#ADD7F7, 10%);
+        border-bottom-color: darken(#ADD7F7, 10%);
+        border-left-color: darken(#ADD7F7, 5%);
+    }
+    .hexagon_vida {
+        width: 200px;
+        height: 200px;
+        border: 60px solid #A0CAB0;
+    }
+    .hexagon_colors_vida {
+        border-top-color: lighten(#A0CAB0, 5%);
+        border-right-color: lighten(#A0CAB0, 10%);
+        border-bottom-color: darken(#A0CAB0, 10%);
+        border-left-color: darken(#A0CAB0, 5%);
+    }
     .hexagon_jkmc {
         width: 200px;
         height: 200px;
@@ -48,17 +84,6 @@
         border-bottom-color: darken(white, 10%);
         border-left-color: darken(white, 5%);
     }
-    .hexagon_homebound {
-        width: 200px;
-        height: 200px;
-        border: 60px solid #D1D6E1;
-    }
-    .hexagon_colors_homebound {
-        border-top-color: lighten(#D1D6E1, 5%);
-        border-right-color: lighten(#D1D6E1, 10%);
-        border-bottom-color: darken(#D1D6E1, 10%);
-        border-left-color: darken(#D1D6E1, 5%);
-    }
     .hexagon_rsna {
         width: 200px;
         height: 200px;
@@ -69,6 +94,17 @@
         border-right-color: lighten(#CCDEED, 10%);
         border-bottom-color: darken(#CCDEED, 10%);
         border-left-color: darken(#CCDEED, 5%);
+    }
+    .hexagon_homebound {
+        width: 200px;
+        height: 200px;
+        border: 60px solid #D1D6E1;
+    }
+    .hexagon_colors_homebound {
+        border-top-color: lighten(#D1D6E1, 5%);
+        border-right-color: lighten(#D1D6E1, 10%);
+        border-bottom-color: darken(#D1D6E1, 10%);
+        border-left-color: darken(#D1D6E1, 5%);
     }
     .hexagon_zero {
         width: 0;
@@ -92,17 +128,27 @@
         border-left-width: 104px;
         border-right-width: 104px;
     }
+    .rectangle_barrier {
+        width: 208px;
+        height: 100px;
+        background-size: 170px;
+    }
+    .rectangle_vida {
+        width: 208px;
+        height: 100px;
+        background-size: 170px;
+    }
     .rectangle_jkmc {
         width: 208px;
         height: 100px;
         background-size: 170px;
     }
-    .rectangle_homebound {
+    .rectangle_rsna {
         width: 208px;
         height: 100px;
         background-size: 170px;
     }
-    .rectangle_rsna {
+    .rectangle_homebound {
         width: 208px;
         height: 100px;
         background-size: 170px;
@@ -116,17 +162,27 @@
     .our_work_desktop, .our_work_mobile {
         display: none;
     }
+    .rectangle_barrier {
+        width: 300px;
+        height: 300px;
+        background-size: 250px;
+    }
+    .rectangle_vida {
+        width: 300px;
+        height: 300px;
+        background-size: 250px;
+    }
     .rectangle_jkmc {
         width: 300px;
         height: 300px;
         background-size: 250px;
     }
-    .rectangle_homebound {
+    .rectangle_rsna {
         width: 300px;
         height: 300px;
         background-size: 250px;
     }
-    .rectangle_rsna {
+    .rectangle_homebound {
         width: 300px;
         height: 300px;
         background-size: 250px;
@@ -145,7 +201,7 @@
         justify-content: center;
         align-items: center;
     }
-    .rectangle_jkmc, .rectangle_homebound, .rectangle_rsna {
+    .rectangle_barrier, .rectangle_vida, .rectangle_jkmc, .rectangle_rsna, .rectangle_homebound {
         width: 300px;
         height: 300px;
         background-size: 250px;
