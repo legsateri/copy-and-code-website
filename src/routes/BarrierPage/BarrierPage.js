@@ -1,7 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
 //////////////////////////////////////////////////////////////////////////////
-import Barrier from '../VidaPage/vida.png';
+import Barrier from './barrier.png';
+import PDF from './barrier-logo-tagline-exploration.pdf';
 //////////////////////////////////////////////////////////////////////////////
 import './BarrierPage.css';
 //////////////////////////////////////////////////////////////////////////////
@@ -26,7 +27,7 @@ class BarrierPage extends Component {
                                 <li>Copywriting</li>
                             </ul>
 
-                            <a href='https://www.vidasangels.com/home' target='_blank'><button className='download_button'>VIEW CREATIVE</button></a>
+                            <a href = {PDF} target='_blank'><button className='download_button'>VIEW CREATIVE</button></a>
                         </div>
                     </div>
                 </main>
